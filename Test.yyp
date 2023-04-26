@@ -158,6 +158,7 @@
     {"id":{"name":"snd_footstep","path":"sounds/snd_footstep/snd_footstep.yy",},},
     {"id":{"name":"spr_heart_pickup","path":"sprites/spr_heart_pickup/spr_heart_pickup.yy",},},
     {"id":{"name":"snd_music_menu","path":"sounds/snd_music_menu/snd_music_menu.yy",},},
+    {"id":{"name":"obj_dim","path":"objects/obj_dim/obj_dim.yy",},},
     {"id":{"name":"obj_lever","path":"objects/obj_lever/obj_lever.yy",},},
     {"id":{"name":"snd_bat_shoot","path":"sounds/snd_bat_shoot/snd_bat_shoot.yy",},},
     {"id":{"name":"seq_menu","path":"sequences/seq_menu/seq_menu.yy",},},

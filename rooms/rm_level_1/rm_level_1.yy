@@ -324,6 +324,7 @@
     {"name":"inst_28DBE705","path":"rooms/rm_level_1/rm_level_1.yy",},
     {"name":"inst_6BE10124","path":"rooms/rm_level_1/rm_level_1.yy",},
     {"name":"inst_1E43DF56","path":"rooms/rm_level_1/rm_level_1.yy",},
+    {"name":"inst_5D249240","path":"rooms/rm_level_1/rm_level_1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -515,6 +516,7 @@
                 {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_gate_particles","path":"objects/obj_gate_particles/obj_gate_particles.yy",},"propertyId":{"name":"light_count","path":"objects/obj_gate_particles/obj_gate_particles.yy",},"value":"-5",},
                 {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_gate_particles","path":"objects/obj_gate_particles/obj_gate_particles.yy",},"propertyId":{"name":"light_direction_increase","path":"objects/obj_gate_particles/obj_gate_particles.yy",},"value":"0",},
               ],"rotation":0.0,"scaleX":2.75,"scaleY":3.0,"x":4928.0,"y":2752.0,},
+            {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5D249240","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_enemy_light_control","path":"objects/obj_enemy_light_control/obj_enemy_light_control.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":16.0,"y":16.0,},
           ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
         {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_Walls_Above","depth":-12000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":63,"SerialiseWidth":79,"TileCompressedData":[
 -22,0,4,17,1,1,5,-3,29,1,9,-15,1,1,25,-33,-2147483648,-4,0,1,35,-4,21,1,37,-12,0,4,17,5,29,39,-3,0,1,41,-13,29,3,9,1,25,-23,-2147483648,1,36,-7,34,7,23,21,0,35,21,21,41,-4,29,4,39,21,21,37,-9,0,2,17,25,-8,0,-11,-2147483648,3,17,1,25,-23,-2147483648,1,

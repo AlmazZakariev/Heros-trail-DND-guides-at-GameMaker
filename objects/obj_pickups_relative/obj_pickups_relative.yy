@@ -1,10 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_coin",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":true,},
-  ],
+  "name": "obj_pickups_relative",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -12,8 +10,8 @@
     "path": "folders/Objects/Game.yy",
   },
   "parentObjectId": {
-    "name": "obj_pickups_relative",
-    "path": "objects/obj_pickups_relative/obj_pickups_relative.yy",
+    "name": "obj_heart_pickup",
+    "path": "objects/obj_heart_pickup/obj_heart_pickup.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -30,10 +28,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_coin",
-    "path": "sprites/spr_coin/spr_coin.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

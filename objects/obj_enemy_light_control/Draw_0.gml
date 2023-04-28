@@ -51,9 +51,9 @@ if(_exists == false)
 	/// @DnDVersion : 1
 	/// @DnDHash : 09768F69
 	/// @DnDParent : 1E9E459D
-	/// @DnDArgument : "function" "surface_set_taget"
+	/// @DnDArgument : "function" "surface_set_target"
 	/// @DnDArgument : "arg" "surf"
-	surface_set_taget(surf);
+	surface_set_target(surf);
 
 	/// @DnDAction : YoYo Games.Drawing.Set_Color
 	/// @DnDVersion : 1
@@ -132,9 +132,9 @@ else
 	/// @DnDBreak : 1
 
 	/// @DnDParent : 6EF2984A
-	/// @DnDArgument : "function" "surface_set_taget"
+	/// @DnDArgument : "function" "surface_set_target"
 	/// @DnDArgument : "arg" "surf"
-	surface_set_taget(surf);
+	surface_set_target(surf);
 
 	/// @DnDAction : YoYo Games.Drawing.Set_Color
 	/// @DnDVersion : 1
@@ -148,8 +148,8 @@ else
 	/// @DnDVersion : 1
 	/// @DnDHash : 54C38A7D
 	/// @DnDParent : 6EF2984A
-	/// @DnDArgument : "alpha" "0.8"
-	draw_set_alpha(0.8);
+	/// @DnDArgument : "alpha" "0.9"
+	draw_set_alpha(0.9);
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Rectangle
 	/// @DnDVersion : 1
@@ -203,16 +203,18 @@ else
 				/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 				/// @DnDVersion : 1
 				/// @DnDHash : 221215C2
+				/// @DnDBreak : 1
+			
 				/// @DnDParent : 0C4A5796
-				/// @DnDArgument : "x" "-cx"
+				/// @DnDArgument : "x" "-_cx-150"
 				/// @DnDArgument : "x_relative" "1"
-				/// @DnDArgument : "y" "-cy"
+				/// @DnDArgument : "y" "-_cy-150"
 				/// @DnDArgument : "y_relative" "1"
 				/// @DnDArgument : "xscale" "0.75"
 				/// @DnDArgument : "yscale" "0.75"
 				/// @DnDArgument : "sprite" "obj_myglow"
 				/// @DnDSaveInfo : "sprite" "obj_myglow"
-				draw_sprite_ext(obj_myglow, 0, x + -cx, y + -cy, 0.75, 0.75, 0, $FFFFFF & $ffffff, 1);
+				draw_sprite_ext(obj_myglow, 0, x + -_cx-150, y + -_cy-150, 0.75, 0.75, 0, $FFFFFF & $ffffff, 1);
 				break;
 		
 			/// @DnDAction : YoYo Games.Switch.Case
@@ -225,15 +227,15 @@ else
 				/// @DnDVersion : 1
 				/// @DnDHash : 7FE93E90
 				/// @DnDParent : 08B2BA2D
-				/// @DnDArgument : "x" "-cx"
+				/// @DnDArgument : "x" "-_cx-120"
 				/// @DnDArgument : "x_relative" "1"
-				/// @DnDArgument : "y" "-cy"
+				/// @DnDArgument : "y" "-_cy-120"
 				/// @DnDArgument : "y_relative" "1"
 				/// @DnDArgument : "xscale" "0.5"
 				/// @DnDArgument : "yscale" "0.5"
 				/// @DnDArgument : "sprite" "obj_myglow"
 				/// @DnDSaveInfo : "sprite" "obj_myglow"
-				draw_sprite_ext(obj_myglow, 0, x + -cx, y + -cy, 0.5, 0.5, 0, $FFFFFF & $ffffff, 1);
+				draw_sprite_ext(obj_myglow, 0, x + -_cx-120, y + -_cy-120, 0.5, 0.5, 0, $FFFFFF & $ffffff, 1);
 				break;
 		
 			/// @DnDAction : YoYo Games.Switch.Case

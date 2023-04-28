@@ -12,7 +12,10 @@
     "name": "Game",
     "path": "folders/Objects/Game.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_pickups_relative",
+    "path": "objects/obj_pickups_relative/obj_pickups_relative.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
